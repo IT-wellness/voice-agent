@@ -49,7 +49,7 @@ export class WebhookController {
      await TelnyxService.speakText(
       call_control_id,
       "Hello! Thank you for calling. Please speak after the beep. Your voice will be recorded for testing purposes. *BEEP*",
-      'male'
+      'female'
     );
     
     // Start media streaming
